@@ -1,0 +1,13 @@
+.breadcrumb{
+    font-size: map-get($font-size, small);
+    background-color: white;
+    & .breadcrumb-item {
+        & a {
+            text-decoration: none;
+            color: #000000;
+        }
+    }
+    :hover a {
+        color:#bfb8ae;
+    }
+}
