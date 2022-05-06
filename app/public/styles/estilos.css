@@ -656,6 +656,7 @@ footer ul li a:hover {
 }
 
 .breadcrumb {
+  padding: 10px 0px 0px 10px;
   font-size: 14px;
   background-color: white;
 }

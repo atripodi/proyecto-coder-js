@@ -85,9 +85,8 @@ const inventarioProductos = [
 // Capturo el id "contenedor-productos" para mostrar dinámicamente todos los productos del array de artículos 
 
 const contenedorProductos = document.getElementById("contenedor-productos");
-// const productos = await getData () // retorna data 
 
-// Función para mostrar los productos: uso el método for each para acceder a cada elemento del array "inventarioProductos" en JS. Para cada producto creo un elemento 
+// Función para mostrar los productos: uso el método for each para acceder a cada elemento del array "inventarioProductos" en JS.  
 
 const mostrarProductos = (inventarioProductos) => {
     inventarioProductos.forEach(producto => {
@@ -112,20 +111,29 @@ const mostrarProductos = (inventarioProductos) => {
                 </div>`
                 
         contenedorProductos.appendChild(article) 
-
-        const botonAgregarAlCarrito = document.getElementById(`btn${producto.id}`);
-
-        botonAgregarAlCarrito.addEventListener("click", () => {
-            carritoOffcanvas(producto.id); // paso por parámetro el id de cada item: ej 1, 2, 
-            // console.log(producto.id);
-            // console.log(producto.nombre);
-            // console.log(producto.precio);
-        })
-
     })
 }
 
 mostrarProductos(inventarioProductos); // incluyo como parámetro el array de objetos
+
+// función para agregar artículo al carrito
+
+const agregarAlCarrito = (inventarioProductos) => {
+
+    inventarioProductos.forEach(producto => {
+
+    const botonAgregarAlCarrito = document.getElementById(`btn${producto.id}`);
+
+    botonAgregarAlCarrito.addEventListener("click", () => {
+        carritoOffcanvas(producto.id);
+        // console.log(producto.id);
+        // console.log(producto.nombre);
+        // console.log(producto.precio);
+    }) 
+    })  
+}
+
+agregarAlCarrito(inventarioProductos);
 
 // función para mostrar en offcanvas el detalle del carrito
 
@@ -149,6 +157,7 @@ const carritoOffcanvas = (productoId) => {
 }
 
 carritoOffcanvas();
+
 
 
 
