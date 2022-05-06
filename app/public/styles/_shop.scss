@@ -73,7 +73,7 @@
                     padding-top: 5px;
                     padding-bottom: 5px;
                 }
-                .btn {
+                & .btn {
                     font-size: map-get($font-size, xsmall);
                     border: #000 solid 1px;
                     width: 50%;
@@ -81,6 +81,7 @@
             }
         }
     }
+
     @media screen and (min-width: 768px) {
         .galeria{
             display: grid;
@@ -100,5 +101,6 @@
         }
     }
 }
+
 
 

@@ -1,15 +1,15 @@
 // items
 
 const inventarioProductos = [
-    // {
-    //     id: 1,
-    //     nombre: "Taza serie 001",
-    //     desc: "Taza de cerámica realizada a mano en torno alfarero esmaltada jaspeada.",
-    //     dimensiones: "Dimensiones: xcm alto x xcm Ø",
-    //     precio: 500,
-    //     img: 'app/public/img/item1.jpeg',
-    //     cantidad:1
-    // },
+    {
+        id: 1,
+        nombre: "Taza serie 001",
+        desc: "Taza de cerámica realizada a mano en torno alfarero esmaltada jaspeada.",
+        dimensiones: "Dimensiones: xcm alto x xcm Ø",
+        precio: 500,
+        img: '/app/public/img/item1.jpeg',
+        cantidad:1
+    },
 
     {
         id: 2,

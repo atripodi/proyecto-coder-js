@@ -55,7 +55,7 @@ $font-size: (
                 color: white;
                 text-decoration: none;
                 .boton1{
-                    @extend #btn1 ;
+                    @extend #btnIndex1 ;
                 }
             }
         }
@@ -63,16 +63,16 @@ $font-size: (
             height: 400px;
             background-image: url(../imagenes/ceramica4v2.jpeg);
             @include bg (center, no-repeat, cover);
-            & #btn2 {
+            & #btnIndex2 {
                 font-size: map-get($font-size, medium); // font-size 20px
-                @extend #btn1 ;
+                @extend #btnIndex1 ;
             }
         }
     }
     
 }
 
-#btn1 {
+#btnIndex1 {
     color: white;
     position: absolute;
     top: 50%;

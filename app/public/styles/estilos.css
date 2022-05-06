@@ -73,11 +73,11 @@
   background-size: cover;
 }
 
-.secciones1-2-3 #sec2 #img-der #btn2 {
+.secciones1-2-3 #sec2 #img-der #btnIndex2 {
   font-size: 16px;
 }
 
-#btn1, .secciones1-2-3 #sec2 #img-izq a .boton1, .secciones1-2-3 #sec2 #img-der #btn2 {
+#btnIndex1, .secciones1-2-3 #sec2 #img-izq a .boton1, .secciones1-2-3 #sec2 #img-der #btnIndex2 {
   color: white;
   position: absolute;
   top: 50%;
@@ -587,7 +587,7 @@ footer ul li a:hover {
 }
 
 #main-contact .container #imagen-contacto {
-  background-image: url(../imagenes/taller1.jpeg);
+  background-image: url(../img/taller1.jpeg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
