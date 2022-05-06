@@ -7,7 +7,7 @@ const inventarioProductos = [
     //     desc: "Taza de cerámica realizada a mano en torno alfarero esmaltada jaspeada.",
     //     dimensiones: "Dimensiones: xcm alto x xcm Ø",
     //     precio: 500,
-    //     img: '/imagenes/item1.jpeg',
+    //     img: 'app/public/img/item1.jpeg',
     //     cantidad:1
     // },
 
@@ -17,7 +17,7 @@ const inventarioProductos = [
         desc: "Mini jarra de cerámica realizada a mano en torno alfarero esmaltada color blanco.",
         dimensiones: "Dimensiones: xcm alto x xcm Ø",
         precio: 500,
-        img: '/img/item2.jpeg',
+        img: '/app/public/img/item2.jpeg',
         cantidad:1
     },
 
@@ -27,7 +27,7 @@ const inventarioProductos = [
         desc: "Mini bowl de cerámica realizado a mano en torno alfarero esmaltada color negro.",
         dimensiones: "Dimensiones: xcm alto x xcm Ø",
         precio: 500,
-        img: '/imagenes/item3.jpeg',
+        img: '/app/public/img/item3.jpeg',
         cantidad:1
     },
 
@@ -37,7 +37,7 @@ const inventarioProductos = [
         desc: " Mini florero de cerámica realizado a mano en torno alfarero esmaltado color natural.",
         dimensiones: "Dimensiones: xcm alto x xcm Ø",
         precio: 500,
-        img: '/imagenes/item4.jpeg',
+        img: '/app/public/img/item4.jpeg',
         cantidad:1
     },
 
@@ -47,7 +47,7 @@ const inventarioProductos = [
         desc: "Maceta de cerámica realizada a mano en torno alfarero esmaltada en color natural.",
         dimensiones: "Dimensiones: xcm alto x xcm Ø",
         precio: 500,
-        img: '/imagenes/item5.jpeg',
+        img: '/app/public/img/item5.jpeg',
         cantidad:1
     },
 
@@ -57,7 +57,7 @@ const inventarioProductos = [
         desc: "Florero amorfo realizado a mano esmaltado en color blanco.",
         dimensiones: "Dimensiones: xcm alto x xcm Ø",
         precio: 500,
-        img: '/imagenes/item6.jpeg',
+        img: '/app/public/img/item6.jpeg',
         cantidad:1
     },
 
@@ -67,7 +67,7 @@ const inventarioProductos = [
         desc: "Taza de cerámica realizada a mano en torno alfarero esmaltada en color blanco.",
         dimensiones: "Dimensiones: xcm alto x xcm Ø",
         precio: 500,
-        img: '/imagenes/item7.jpeg',
+        img: '/app/public/img/item7.jpeg',
         cantidad:1
     },
 
@@ -77,7 +77,7 @@ const inventarioProductos = [
         desc: "Enmarcados hechos a mano por encargo. Buscamos la mejor opción para resaltar tu obra. Contactános!",
         dimensiones: "Dimensiones: a convenir",
         precio: 500,
-        img: '/imagenes/imagen1.jpeg',
+        img: '/app/public/img/imagen1.jpeg',
         cantidad:1
     }
 ]
